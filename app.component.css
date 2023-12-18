@@ -1,0 +1,65 @@
+/* app.component.css *//* app.component.css */
+
+body {
+    background-color: #f4f4f4; /* Light gray background color */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .card-container {
+    width: 80%;
+    max-width: 400px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 520px;
+    margin-top: 160px;
+  }
+  
+  .counter-value {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .btn-container {
+    margin-top: 30px;
+  }
+  
+  .btn-start{
+    background-color:#3498db;
+    font-size: 1.2em;
+    padding: 12px 24px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+
+
+  }
+  .btn-stop {
+    background-color:#e74c3c;
+    font-size: 1.2em;
+    padding: 12px 24px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .btn-start:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+    border-color: #2980b9;
+  }
+  
+  .btn-stop:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+    border-color: #c0392b;
+  }
+  
+  

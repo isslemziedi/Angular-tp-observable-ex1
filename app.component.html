@@ -1,0 +1,11 @@
+<div class="card-container">
+  <div class="counter-container">
+    <h1 class="counter-value">Compilateur</h1>
+    <h1 class="counter-value">{{ interval$ | async }}</h1>
+
+    <div class="btn-container">
+      <button class="btn btn-start" (click)="start()">Start</button>
+      <button class="btn btn-stop" (click)="stop()">Stop</button>
+    </div>
+  </div>
+</div>
